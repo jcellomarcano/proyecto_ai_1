@@ -1,0 +1,91 @@
+# Archivo: 15-puzzle.psvn
+
+DOMAIN d 16
+       0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+
+16
+
+d d d d d d d d d d d d d d d d 
+
+# Posición 1
+0 X - - - - - - - - - - - - - - => X 0 - - - - - - - - - - - - - - LABEL MOVER-1-DERECHA
+0 - - - X - - - - - - - - - - - => X - - - 0 - - - - - - - - - - - LABEL MOVER-1-ABAJO
+
+# Posición 2
+X 0 - - - - - - - - - - - - - - => 0 X - - - - - - - - - - - - - - LABEL MOVER-2-IZQUIERDA
+- 0 X - - - - - - - - - - - - - => - X 0 - - - - - - - - - - - - - LABEL MOVER-2-DERECHA
+- 0 - - - X - - - - - - - - - - => - X - - - 0 - - - - - - - - - - LABEL MOVER-2-ABAJO
+
+# Posición 3
+- X 0 - - - - - - - - - - - - - => - 0 X - - - - - - - - - - - - - LABEL MOVER-3-IZQUIERDA
+- - 0 X - - - - - - - - - - - - => - - X 0 - - - - - - - - - - - - LABEL MOVER-3-DERECHA
+- - 0 - - - X - - - - - - - - - => - - X - - - 0 - - - - - - - - - LABEL MOVER-3-ABAJO
+
+# Posición 4
+- - X 0 - - - - - - - - - - - - => - - 0 X - - - - - - - - - - - - LABEL MOVER-4-IZQUIERDA
+- - - 0 - - - X - - - - - - - - => - - - X - - - 0 - - - - - - - - LABEL MOVER-4-ABAJO
+
+# Posición 5
+- - - - 0 X - - - - - - - - - - => - - - - X 0 - - - - - - - - - - LABEL MOVER-5-DERECHA
+- - - - 0 - - - X - - - - - - - => - - - - X - - - 0 - - - - - - - LABEL MOVER-5-ABAJO
+X - - - 0 - - - - - - - - - - - => 0 - - - X - - - - - - - - - - - LABEL MOVER-5-ARRIBA
+
+# Posición 6
+- - - - X 0 - - - - - - - - - - => - - - - 0 X - - - - - - - - - - LABEL MOVER-6-IZQUIERDA
+- - - - - 0 X - - - - - - - - - => - - - - - X 0 - - - - - - - - - LABEL MOVER-6-DERECHA
+- - - - - 0 - - - X - - - - - - => - - - - - X - - - 0 - - - - - - LABEL MOVER-6-ABAJO
+- X - - - 0 - - - - - - - - - - => - 0 - - - X - - - - - - - - - - LABEL MOVER-6-ARRIBA
+
+# Posición 7
+- - - - - X 0 - - - - - - - - - => - - - - - 0 X - - - - - - - - - LABEL MOVER-7-IZQUIERDA
+- - - - - - 0 X - - - - - - - - => - - - - - - X 0 - - - - - - - - LABEL MOVER-7-DERECHA
+- - - - - - 0 - - - X - - - - - => - - - - - - X - - - 0 - - - - - LABEL MOVER-7-ABAJO
+- - X - - - 0 - - - - - - - - - => - - 0 - - - X - - - - - - - - - LABEL MOVER-7-ARRIBA
+
+# Posición 8
+- - - - - - X 0 - - - - - - - - => - - - - - - 0 X - - - - - - - - LABEL MOVER-8-IZQUIERDA
+- - - - - - - 0 - - - X - - - - => - - - - - - - X - - - 0 - - - - LABEL MOVER-8-ABAJO
+- - - X - - - 0 - - - - - - - - => - - - 0 - - - X - - - - - - - - LABEL MOVER-8-ARRIBA
+
+# Posición 9
+- - - - - - - - 0 X - - - - - - => - - - - - - - - X 0 - - - - - - LABEL MOVER-9-DERECHA
+- - - - - - - - 0 - - - X - - - => - - - - - - - - X - - - 0 - - - LABEL MOVER-9-ABAJO
+- - - - X - - - 0 - - - - - - - => - - - - 0 - - - X - - - - - - - LABEL MOVER-9-ARRIBA
+
+# Posición 10
+- - - - - - - - X 0 - - - - - - => - - - - - - - - 0 X - - - - - - LABEL MOVER-10-IZQUIERDA
+- - - - - - - - - 0 X - - - - - => - - - - - - - - - X 0 - - - - - LABEL MOVER-10-DERECHA
+- - - - - - - - - 0 - - - X - - => - - - - - - - - - X - - - 0 - - LABEL MOVER-10-ABAJO
+- - - - - X - - - 0 - - - - - - => - - - - - 0 - - - X - - - - - - LABEL MOVER-10-ARRIBA
+
+# Posición 11
+- - - - - - - - - X 0 - - - - - => - - - - - - - - - 0 X - - - - - LABEL MOVER-11-IZQUIERDA
+- - - - - - - - - - 0 X - - - - => - - - - - - - - - - X 0 - - - - LABEL MOVER-11-DERECHA
+- - - - - - - - - - 0 - - - X - => - - - - - - - - - - X - - - 0 - LABEL MOVER-11-ABAJO
+- - - - - - X - - - 0 - - - - - => - - - - - - 0 - - - X - - - - - LABEL MOVER-11-ARRIBA
+
+# Posición 12
+- - - - - - - - - - X 0 - - - - => - - - - - - - - - - 0 X - - - - LABEL MOVER-12-IZQUIERDA
+- - - - - - - - - - - 0 - - - X => - - - - - - - - - - - X - - - 0 LABEL MOVER-12-ABAJO
+- - - - - - - X - - - 0 - - - - => - - - - - - - 0 - - - X - - - - LABEL MOVER-12-ARRIBA
+
+# Posición 13
+- - - - - - - - - - - - 0 X - - => - - - - - - - - - - - - X 0 - - LABEL MOVER-13-DERECHA
+- - - - - - - - X - - - 0 - - - => - - - - - - - - 0 - - - X - - - LABEL MOVER-13-ARRIBA
+
+# Posición 14
+- - - - - - - - - - - - X 0 - - => - - - - - - - - - - - - 0 X - - LABEL MOVER-14-IZQUIERDA
+- - - - - - - - - - - - - 0 X - => - - - - - - - - - - - - - X 0 - LABEL MOVER-14-DERECHA
+- - - - - - - - - X - - - 0 - - => - - - - - - - - - 0 - - - X - - LABEL MOVER-14-ARRIBA
+
+# Posición 15
+- - - - - - - - - - - - - X 0 - => - - - - - - - - - - - - - 0 X - LABEL MOVER-15-IZQUIERDA
+- - - - - - - - - - - - - - 0 X => - - - - - - - - - - - - - - X 0 LABEL MOVER-15-DERECHA
+- - - - - - - - - - X - - - 0 - => - - - - - - - - - - 0 - - - X - LABEL MOVER-15-ARRIBA
+
+# Posición 16
+- - - - - - - - - - - - - - X 0 => - - - - - - - - - - - - - - 0 X LABEL MOVER-16-IZQUIERDA
+- - - - - - - - - - - X - - - 0 => - - - - - - - - - - - 0 - - - X LABEL MOVER-16-ARRIBA
+
+
+GOAL 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 

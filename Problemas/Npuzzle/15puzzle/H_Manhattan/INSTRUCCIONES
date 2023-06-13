@@ -1,0 +1,13 @@
+1) Para crear los ejecutables IDA* y A*, hacer:
+
+    make 15-puzzle.IDA*
+    make 15-puzzle.A*
+
+2) Ejecutar cada uno respectivamente con:
+
+    ./15-puzzle.IDA*
+    ./15-puzzle.A*
+
+3) El archivo de prueba a ingresar es
+
+    15_puzzle_100_instances_korf.txt

@@ -1,0 +1,18 @@
+map d 0 0 
+map d 1 8
+map d 2 1
+map d 3 1
+map d 4 1
+map d 5 1
+map d 6 1  
+map d 7 1 
+map d 8 1
+map d 9 1
+map d 10 10
+map d 11 11
+map d 12 1
+map d 13 13
+map d 14 14
+map d 15 15
+
+# Nuestra X es el valor 1

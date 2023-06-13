@@ -1,0 +1,51 @@
+1) Hacer los siguientes makes
+
+    make 15-puzzle_1-2-3-6-7.distSummary
+    make 15-puzzle_4-5-8-9-12.distSummary
+    make 15-puzzle_10-11-13-14-15.distSummary
+
+2) Ejecutar los siguientes comandos para crear las pdb's
+
+    ./15-puzzle_1-2-3-6-7.distSummary 15-puzzle_1-2-3-6-7.pdb
+    ./15-puzzle_4-5-8-9-12.distSummary 15-puzzle_4-5-8-9-12.pdb
+    ./15-puzzle_10-11-13-14-15.distSummary 15-puzzle_10-11-13-14-15.pdb
+
+3) Crear los ejecutables IDA* y A* con
+
+    make 15-puzzle.IDA*
+    make 15-puzzle.A*
+
+4) Cada uno se ejecuta respectivamente con:
+
+    ./15-puzzle.IDA*
+    ./15-puzzle.A*
+
+5) El archivo de prueba a ingresar es
+
+    15_puzzle_100_instances_korf.txt
+
+================================================================================
+Explicación: 
+============
+
+En esta carpeta se encuentran cuatro archivos .psvn
+
+15-puzzle.psvn
+15-puzzle_1-2-3-6-7.psvn
+15-puzzle_4-5-8-9-12.psvn
+15-puzzle_10-11-13-14-15.psvn
+
+El primero es el del problema original. Los otros tres son las tres abstracciones.
+Para crearlos, hubo que ejecutar "make abstractor". Luego, por ejemplo para la
+primera abstracción, hubo que hacer:
+
+    ./abstractor 15-puzzle.psvn 15-puzzle_1-2-3-6-7
+
+Y allí copiar todas las instrucciones que están en el archivo "1-2-3-6-7.txt",
+que se encuentra en la subcarpeta "Archivos txt". Eso genera el archivo
+"15-puzzle_1-2-3-6-7.psvn" con la abstracción correspondiente.
+
+Sin embargo, ello le asigna un costo de 1 a todas las reglas. Como queremos que
+la heurística sea aditiva, tuvimos que modificar algunos costos a cero manualmente.
+Para no tener que hacer esto cada vez, dejamos esos .psvn en esta carpeta y las
+pdb's se crean a partir de ellos.

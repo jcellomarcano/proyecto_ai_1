@@ -1,0 +1,22 @@
+1) Hacer los siguientes makes
+
+    make 24-puzzle/project1.pdb
+    make 24-puzzle/project2.pdb
+    make 24-puzzle/project3.pdb
+    make 24-puzzle/project4.pdb
+    make 24-puzzle/project5.pdb
+    make 24-puzzle/project6.pdb
+
+2) Crear los ejecutables IDA* y A* con
+
+    make 24-puzzle.IDA*
+    make 24-puzzle.A*
+
+3) Cada uno se ejecuta respectivamente con:
+
+    ./24-puzzle.IDA*
+    ./24-puzzle.A*
+
+4) El archivo de prueba a ingresar es
+
+    24_puzzle_50_instances_korf.txt

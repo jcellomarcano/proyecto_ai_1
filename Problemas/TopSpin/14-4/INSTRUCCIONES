@@ -1,0 +1,25 @@
+1) Hacer los siguientes makes
+
+    make TopSpin-14-4/abst1pdb.pdb
+    make TopSpin-14-4/abst2pdb.pdb
+
+2) Crear los ejecutables IDA* y A* con
+
+    make TopSpin-14-4.IDA*
+    make TopSpin-14-4.A*
+
+3) Cada uno se ejecuta respectivamente con:
+
+    ./TopSpin-14-4.IDA*
+    ./TopSpin-14-4.A*
+
+4) Los archivos de prueba que se pueden ingresar son:
+
+    1-topSpin-14-4.txt
+    2-topSpin-14-4.txt
+    3-topSpin-14-4.txt
+    4-topSpin-14-4.txt
+    5-topSpin-14-4.txt
+    6-topSpin-14-4.txt
+    7-topSpin-14-4.txt
+

@@ -1,0 +1,60 @@
+# This file was created by the abstractor program.
+# The source PSVN file was: 15-puzzle.psvn
+# The abstraction used is stored in file: 15-puzzle_4-5-8-9-12.abst
+
+DOMAIN D 16
+  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
+
+16
+D D D D D D D D D D D D D D D D
+
+0 X - - - - - - - - - - - - - - => X 0 - - - - - - - - - - - - - - LABEL MOVER-1-DERECHA COST 0
+0 - - - X - - - - - - - - - - - => X - - - 0 - - - - - - - - - - - LABEL MOVER-1-ABAJO COST 0
+X 0 - - - - - - - - - - - - - - => 0 X - - - - - - - - - - - - - - LABEL MOVER-2-IZQUIERDA COST 0
+- 0 X - - - - - - - - - - - - - => - X 0 - - - - - - - - - - - - - LABEL MOVER-2-DERECHA COST 0
+- 0 - - - X - - - - - - - - - - => - X - - - 0 - - - - - - - - - - LABEL MOVER-2-ABAJO COST 0
+- X 0 - - - - - - - - - - - - - => - 0 X - - - - - - - - - - - - - LABEL MOVER-3-IZQUIERDA COST 0
+- - 0 X - - - - - - - - - - - - => - - X 0 - - - - - - - - - - - - LABEL MOVER-3-DERECHA COST 0
+- - 0 - - - X - - - - - - - - - => - - X - - - 0 - - - - - - - - - LABEL MOVER-3-ABAJO COST 0
+- - X 0 - - - - - - - - - - - - => - - 0 X - - - - - - - - - - - - LABEL MOVER-4-IZQUIERDA COST 0
+- - - 0 - - - X - - - - - - - - => - - - X - - - 0 - - - - - - - - LABEL MOVER-4-ABAJO COST 0
+- - - - 0 X - - - - - - - - - - => - - - - X 0 - - - - - - - - - - LABEL MOVER-5-DERECHA COST 1
+- - - - 0 - - - X - - - - - - - => - - - - X - - - 0 - - - - - - - LABEL MOVER-5-ABAJO COST 1
+X - - - 0 - - - - - - - - - - - => 0 - - - X - - - - - - - - - - - LABEL MOVER-5-ARRIBA COST 0
+- - - - X 0 - - - - - - - - - - => - - - - 0 X - - - - - - - - - - LABEL MOVER-6-IZQUIERDA COST 1
+- - - - - 0 X - - - - - - - - - => - - - - - X 0 - - - - - - - - - LABEL MOVER-6-DERECHA COST 0
+- - - - - 0 - - - X - - - - - - => - - - - - X - - - 0 - - - - - - LABEL MOVER-6-ABAJO COST 1
+- X - - - 0 - - - - - - - - - - => - 0 - - - X - - - - - - - - - - LABEL MOVER-6-ARRIBA COST 0
+- - - - - X 0 - - - - - - - - - => - - - - - 0 X - - - - - - - - - LABEL MOVER-7-IZQUIERDA COST 0
+- - - - - - 0 X - - - - - - - - => - - - - - - X 0 - - - - - - - - LABEL MOVER-7-DERECHA COST 0
+- - - - - - 0 - - - X - - - - - => - - - - - - X - - - 0 - - - - - LABEL MOVER-7-ABAJO COST 0
+- - X - - - 0 - - - - - - - - - => - - 0 - - - X - - - - - - - - - LABEL MOVER-7-ARRIBA COST 0
+- - - - - - X 0 - - - - - - - - => - - - - - - 0 X - - - - - - - - LABEL MOVER-8-IZQUIERDA COST 0
+- - - - - - - 0 - - - X - - - - => - - - - - - - X - - - 0 - - - - LABEL MOVER-8-ABAJO COST 0
+- - - X - - - 0 - - - - - - - - => - - - 0 - - - X - - - - - - - - LABEL MOVER-8-ARRIBA COST 0
+- - - - - - - - 0 X - - - - - - => - - - - - - - - X 0 - - - - - - LABEL MOVER-9-DERECHA COST 1
+- - - - - - - - 0 - - - X - - - => - - - - - - - - X - - - 0 - - - LABEL MOVER-9-ABAJO COST 1
+- - - - X - - - 0 - - - - - - - => - - - - 0 - - - X - - - - - - - LABEL MOVER-9-ARRIBA COST 1
+- - - - - - - - X 0 - - - - - - => - - - - - - - - 0 X - - - - - - LABEL MOVER-10-IZQUIERDA COST 1
+- - - - - - - - - 0 X - - - - - => - - - - - - - - - X 0 - - - - - LABEL MOVER-10-DERECHA COST 0
+- - - - - - - - - 0 - - - X - - => - - - - - - - - - X - - - 0 - - LABEL MOVER-10-ABAJO COST 0
+- - - - - X - - - 0 - - - - - - => - - - - - 0 - - - X - - - - - - LABEL MOVER-10-ARRIBA COST 1
+- - - - - - - - - X 0 - - - - - => - - - - - - - - - 0 X - - - - - LABEL MOVER-11-IZQUIERDA COST 0
+- - - - - - - - - - 0 X - - - - => - - - - - - - - - - X 0 - - - - LABEL MOVER-11-DERECHA COST 0
+- - - - - - - - - - 0 - - - X - => - - - - - - - - - - X - - - 0 - LABEL MOVER-11-ABAJO COST 0
+- - - - - - X - - - 0 - - - - - => - - - - - - 0 - - - X - - - - - LABEL MOVER-11-ARRIBA COST 0
+- - - - - - - - - - X 0 - - - - => - - - - - - - - - - 0 X - - - - LABEL MOVER-12-IZQUIERDA COST 0
+- - - - - - - - - - - 0 - - - X => - - - - - - - - - - - X - - - 0 LABEL MOVER-12-ABAJO COST 0
+- - - - - - - X - - - 0 - - - - => - - - - - - - 0 - - - X - - - - LABEL MOVER-12-ARRIBA COST 0
+- - - - - - - - - - - - 0 X - - => - - - - - - - - - - - - X 0 - - LABEL MOVER-13-DERECHA COST 0
+- - - - - - - - X - - - 0 - - - => - - - - - - - - 0 - - - X - - - LABEL MOVER-13-ARRIBA COST 1
+- - - - - - - - - - - - X 0 - - => - - - - - - - - - - - - 0 X - - LABEL MOVER-14-IZQUIERDA COST 0
+- - - - - - - - - - - - - 0 X - => - - - - - - - - - - - - - X 0 - LABEL MOVER-14-DERECHA COST 0
+- - - - - - - - - X - - - 0 - - => - - - - - - - - - 0 - - - X - - LABEL MOVER-14-ARRIBA COST 0
+- - - - - - - - - - - - - X 0 - => - - - - - - - - - - - - - 0 X - LABEL MOVER-15-IZQUIERDA COST 0
+- - - - - - - - - - - - - - 0 X => - - - - - - - - - - - - - - X 0 LABEL MOVER-15-DERECHA COST 0
+- - - - - - - - - - X - - - 0 - => - - - - - - - - - - 0 - - - X - LABEL MOVER-15-ARRIBA COST 0
+- - - - - - - - - - - - - - X 0 => - - - - - - - - - - - - - - 0 X LABEL MOVER-16-IZQUIERDA COST 0
+- - - - - - - - - - - X - - - 0 => - - - - - - - - - - - 0 - - - X LABEL MOVER-16-ARRIBA COST 0
+
+GOAL 0 15 1 1 4 5 1 1 8 9 1 1 12 1 1 1

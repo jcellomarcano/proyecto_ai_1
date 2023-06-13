@@ -1,0 +1,25 @@
+1) Hacer los siguientes makes
+
+    make cuboRubik/1-edgeCubies.pdb
+    make cuboRubik/2-edgeCubies.pdb
+    make cuboRubik/cornersCubies.pdb
+
+2) Crear los ejecutables IDA* y A* con
+
+    make cuboRubik.IDA*
+    make cuboRubik.A*
+
+3) Cada uno se ejecuta respectivamente con:
+
+    ./cuboRubik.IDA*
+    ./cuboRubik.A*
+
+4) Los posibles archivos de prueba son
+
+    rubik3.d=005
+    rubik3.d=010
+    rubik3.d=015
+    rubik3.d=020
+    rubik3.d=040
+    rubik3.d=080
+    rubik3.d=160

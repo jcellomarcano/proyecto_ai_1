@@ -1,0 +1,24 @@
+1) Hacer los siguientes makes
+
+    make THanoi-4-12/abst1pdb.pdb
+    make THanoi-4-12/abst2pdb.pdb
+
+2) Crear los ejecutables IDA* y A* con
+
+    make THanoi-4-12.IDA*
+    make THanoi-4-12.A*
+
+3) Cada uno se ejecuta respectivamente con:
+
+    ./THanoi-4-12.IDA*
+    ./THanoi-4-12.A*
+
+4) Los archivos de prueba que se pueden ingresar son:
+
+    1-Thanoi-4-12.txt
+    2-Thanoi-4-12.txt
+    3-Thanoi-4-12.txt
+    4-Thanoi-4-12.txt
+    5-Thanoi-4-12.txt
+    6-Thanoi-4-12.txt
+    7-Thanoi-4-12.txt
