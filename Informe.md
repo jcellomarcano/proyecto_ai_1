@@ -6,7 +6,7 @@
 ## Proyecto I PSVN
 
 Especificaciones del entorno de prueba:
-- Memoria: 32 GB RAM
+- Memoria: 16 GB RAM
 - Procesamiento: Intel(R) Core(TM) i7-4790K CPU @ 4.40GHz
 
 ## Resultados
